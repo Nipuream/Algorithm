@@ -53,6 +53,33 @@ class MinStack {
     }
 }
 
+class MinStack1 {
+
+    private LinkedList<Integer> stack = new LinkedList<>();
+    private PriorityQueue<Integer> min = new PriorityQueue<>();
+
+    void push(int val) {
+        stack.push(val);
+        min.add(val);
+    }
+
+    void pop() {
+        if(!stack.isEmpty()) {
+            int val = stack.pop();
+            min.remove(val);
+        }
+    }
+
+    int top() {
+        return stack.peek();
+    }
+
+    int getMin() {
+        return min.peek();
+    }
+
+}
+
 public class Main {
 
     public static void main(String[] args) {
@@ -62,7 +89,7 @@ public class Main {
         String[] line2 = scanner.nextLine().trim().split(",");
 
         int length = line1.length;
-        MinStack stack = new MinStack();
+        MinStack1 stack = new MinStack1();
         for(int i = 0; i < length; i++) {
             switch (line1[i]) {
                 case "push":
