@@ -1,3 +1,6 @@
+
+package src.Stack_Queue;
+
 import java.util.Scanner;
 import java.util.Stack;
 

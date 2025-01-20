@@ -1,4 +1,4 @@
-package Append_K_Nums;
+package src.Append_K_Nums;
 
 import java.util.Arrays;
 import java.util.Scanner;
