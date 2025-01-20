@@ -58,16 +58,16 @@ public class Main {
         //int[] numbers = { 5, 6 };
         //int k = 6;
 
-        //case 4
-        // int[] numbers = {1, 4, 10, 25};
-        // int k = 2;
+        // case 4
+        int[] numbers = {1, 4, 10, 25};
+        int k = 2;
 
-        Scanner scanner = new Scanner(System.in);
-        String line1 = scanner.nextLine().trim();
-        String line2 = scanner.nextLine().trim();
+        // Scanner scanner = new Scanner(System.in);
+        // String line1 = scanner.nextLine().trim();
+        // String line2 = scanner.nextLine().trim();
 
-        int[] numbers = StrToIntArray(line1.split(" "));
-        int k = Integer.parseInt(line2);
+        // int[] numbers = StrToIntArray(line1.split(" "));
+        // int k = Integer.parseInt(line2);
 
         long sum = Append_K_Nums(numbers, k);
         System.out.println(sum);
