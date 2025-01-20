@@ -2,7 +2,6 @@ package Max_Price_Package;
 
 import java.util.*;
 
-
 class Product {
     public int weight;
     public int price;

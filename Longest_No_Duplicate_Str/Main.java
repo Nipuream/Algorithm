@@ -22,24 +22,24 @@ class Main {
         return ans;
     }
 
-    private static int test(String input) {
+
+    public static void main(String[] args) {
+        // Scanner scanner = new Scanner(System.in);
+        // String input = scanner.nextLine().trim(); 
+        // if(input.length() <= 1) {
+        //     System.out.println(input);
+        //     return;
+        // }
+        // int num = Find_Longest_Str(input);
+        // System.out.println(num);
+        String str = new Scanner(System.in).nextLine();
         Set<Character> set = new HashSet<>();
         int left = 0, ans = 0;;
-        for(Character ch : input.toCharArray()) {
-            while(set.contains(ch)) set.remove(input.charAt(left++));
+        for(Character ch : str.toCharArray()) {
+            while(set.contains(ch)) set.remove(str.charAt(left++));
             set.add(ch);
             ans = Math.max(ans, set.size());
         }
-        return ans;
-    }
-
-
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine().trim(); 
-        //int num = Find_Longest_Str(input);
-        int num = test(input);
-        System.out.println(num);
+        System.out.println(ans);
     }
 }
