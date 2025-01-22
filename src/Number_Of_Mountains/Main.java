@@ -29,7 +29,6 @@ public class Main {
         area(grid, r, c + 1);
     }
 
-
     private static int Number_Of_Mountains(int[][] mountains) {
 
         int number = 0;
