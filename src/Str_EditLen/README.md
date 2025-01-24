@@ -20,4 +20,4 @@ __case__
 动态规划，状态转移方程:
 
 1) s[i] == t[j] => dp[i][j] = dp[i-1][j-1]
-2) s[i] != t[j] => dp[i][j] = Math.min(dp[i-1][j-1], Math.min(dp[i][j-1], dp[i-1][j]));
+2) s[i] != t[j] => dp[i][j] = Math.min(dp[i-1][j-1], Math.min(dp[i][j-1], dp[i-1][j])) + 1;
