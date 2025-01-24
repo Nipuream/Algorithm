@@ -62,7 +62,7 @@ algorithm study
 
 ### 岛屿类问题
 
-[岛屿类问题](https://leetcode.cn/problems/number-of-islands/solutions/211211/dao-yu-lei-wen-ti-de-tong-yong-jie-fa-dfs-bian-li-/)
+[岛屿类问题优秀题解](https://leetcode.cn/problems/number-of-islands/solutions/211211/dao-yu-lei-wen-ti-de-tong-yong-jie-fa-dfs-bian-li-/)
 
 - [大山的数量](./src/Number_Of_Mountains/)
 - [海岛的最大面积](./src/Max_Land_Area/)
