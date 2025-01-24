@@ -22,5 +22,5 @@ __case__
 
 比较简单，考虑用优先队列来解决。考虑到用优先队列来实现，因为优先队列默认是最小堆，如果改成最大堆则初始化:
 ```java
-    PriorityQueue<Integer> queue = new PriorityQueue<Integer>(Comparator.reverseOrder());
+PriorityQueue<Integer> queue = new PriorityQueue<Integer>(Comparator.reverseOrder());
 ```

@@ -41,8 +41,6 @@ public class Main {
         return dp[m.length()][n.length()];
     }
 
-
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] input = scanner.nextLine().trim().split(" ");
