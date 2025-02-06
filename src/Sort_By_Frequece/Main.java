@@ -27,7 +27,7 @@ public class Main {
             int num = c.getValue();
             for(int j = 0; j < num; j++) {
                 sb.append(c.getKey());
-            }   
+            }
         }
 
         return sb.toString();
