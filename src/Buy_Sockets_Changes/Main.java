@@ -47,6 +47,15 @@ public class Main {
         return dp[prices.length - 1][0];
     }
 
+    private static int maxProfile1(int[] prices) {
+        int cost = Integer.MAX_VALUE, profit = 0;
+        for (int price: prices) {
+            cost = Math.min(cost, price);
+            profit = Math.max(profit, price - cost);
+        }
+        return profit;
+    }
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

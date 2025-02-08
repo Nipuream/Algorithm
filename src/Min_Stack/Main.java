@@ -20,7 +20,7 @@ class MinStack {
     public void push(int val) {
 
         if(stack.isEmpty()) {
-            stack.push(val);
+            stack.push(0);
             min = val;
             return ;
         }
@@ -41,11 +41,15 @@ class MinStack {
     }
 
     public int top() {
-        if(stack.peek() >= 0) {
-            return min + stack.peek();
-        } else {
-            return min - stack.peek();
+        if (!stack.isEmpty()) {
+            int diff = stack.peek();
+            if (diff < 0) {
+                return min;
+            } else {
+                return min + diff;
+            }
         }
+        return -1;
     }
 
     public int getMin() {

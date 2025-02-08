@@ -34,7 +34,7 @@ algorithm study
 - [最后一块石头的重量](./src/Last_Stone_Quality/)
 - [最小栈](./src/Min_Stack/)
 - [有效的括号](./src/Valid_Brackets/)
-- [两个数组的交集](./src/Two_Arrays_Intersection/)
+- [求两个数组的交集](./src/Two_Arrays_Intersection/)
 - [删除无效的括号](./src/Delete_Invalid_Brackets/)
 - [验证栈序列](./src/Verity_Stack/)
 - [最多能完成排序的块]()
