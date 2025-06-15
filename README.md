@@ -20,6 +20,30 @@ algorithm study
 - [按格式合并两个链表](./src/Combine_Two_List/)
 - [拼接最大数](./src/Split_Max_Number/)
 
+
+## 链表
+- [相交链表]()
+  ```java
+  ListNode pa = headA, pb = headB;
+  while (pa != pb) {
+    pa = pa == null ? headB : pa.next;
+    pb = pb == null ? headA : pb.next;
+  }
+  ```
+- [反转链表]()
+  ```java
+  public ListNode reverseList(ListNode head) {
+    ListNode cur = null, pre = null;
+    while (head != null) {
+        pre = cur;
+        cur = head;
+        head = head.next;
+        cur.next = pre;
+    }
+    return cur;
+  }
+  ```
+
 ## 字符串
 - [判断字符串是否是回文串](./src/Check_Palindrome/)
 - [同构字符串](./src/Isomorphic_Letters/)
@@ -29,7 +53,7 @@ algorithm study
 - [无重复字符的最长子串](./src/Longest_No_Duplicate_Str/)
 
 
-## 栈/队列/集合
+## 栈/队列/集合/堆
 - [使用栈来实现队列](./src/Stack_Queue/)
 - [使用队列来实现栈](./src/Queue_Stack/)
 - [验证栈序列](./src/Verity_Stack/)
