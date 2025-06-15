@@ -31,12 +31,13 @@ algorithm study
 
 ## 栈/队列/集合
 - [使用栈来实现队列](./src/Stack_Queue/)
+- [使用队列来实现栈](./src/Queue_Stack/)
+- [验证栈序列](./src/Verity_Stack/)
 - [最后一块石头的重量](./src/Last_Stone_Quality/)
 - [最小栈](./src/Min_Stack/)
 - [有效的括号](./src/Valid_Brackets/)
 - [求两个数组的交集](./src/Two_Arrays_Intersection/)
 - [删除无效的括号](./src/Delete_Invalid_Brackets/)
-- [验证栈序列](./src/Verity_Stack/)
 - [最多能完成排序的块]()
 - [最长有效括号](./src/Longest_Valid_Backets/)
 
