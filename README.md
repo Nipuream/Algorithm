@@ -2,35 +2,35 @@
 algorithm study
 
 
-## 数组/链表
+## 数组
 - [向数组追加K个整数](./src/Append_K_Nums/)
 - [数字拆分求和](./src/Split_Chk_Sum/)
 - [买票需要的时间](./src/Buy_Ticket_Time/)
 - [无法吃早饭的学生](./src/Student_Breakfast/)
-- [合并K个升序链表](./src/Merge_K_List/)
 - [区间和的个数](./src/Find_Area_Num/)
 - [背包能装的最大价值](./src/Max_Price_Package/)
 - [连续的子数组和](./src/Serial_Array_Sum/)
 - [最小数](./src/Min_Numbers/)
 - [存在重复的数字3]()
 - [三数之和](./src/Three_Number_Sum/)
-- [分段反转链表](./src/Revese_List/)
-- [删除有序链表中重复2次以上的元素](./src/Delete_Duplicate_Number/)
-- [按格式重排链表](./src/ReSort_List/)
-- [按格式合并两个链表](./src/Combine_Two_List/)
 - [拼接最大数](./src/Split_Max_Number/)
 
 
 ## 链表
-- [相交链表]()
+
+### 相交链表
+  pa 和 pb 同时走完 m+n 的路程，要不相遇，要不同时等于 null.
   ```java
-  ListNode pa = headA, pb = headB;
-  while (pa != pb) {
-    pa = pa == null ? headB : pa.next;
-    pb = pb == null ? headA : pb.next;
+  public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+      ListNode pa = headA, pb = headB;
+      while (pa != pb) {
+          pa = pa == null ? headB : pa.next;
+          pb = pb == null ? headA : pb.next;
+      }
+      return pa;
   }
   ```
-- [反转链表]()
+### 反转链表
   ```java
   public ListNode reverseList(ListNode head) {
     ListNode cur = null, pre = null;
@@ -43,6 +43,48 @@ algorithm study
     return cur;
   }
   ```
+### 环形链表
+1）判断是否有环，则使用快慢指针，能相遇则有环。
+  ```java
+  public boolean hasCycle(ListNode head) {
+    ListNode fast = head, slow = head;
+    while (fast != null && fast.next != null) {
+        slow = slow.next;
+        fast = fast.next.next;
+        if (fast == slow) return true;
+    }
+    return false;
+  }
+  ```
+2）如果确定链表中有环，返回入环的第一个节点。
+```java
+public ListNode detectCycle(ListNode head) {
+    ListNode fast = head, slow = head;
+    while (true) {
+        if (fast == null || fast.next == null)
+            return null;
+        slow = slow.next;
+        fast = fast.next.next;
+        if (fast == slow) break;
+    }
+
+    fast = head;
+    while (fast != slow) {
+        fast = fast.next;
+        slow = slow.next;
+    }
+    return slow;
+}
+```
+
+### 其他
+- [合并两个有序链表](./src/Merge_Two_List/)
+- [按格式合并两个链表](./src/Combine_Two_List/)
+- [合并K个升序链表](./src/Merge_K_List/)
+- [分段反转链表](./src/Revese_List/)
+- [删除有序链表中重复2次以上的元素](./src/Delete_Duplicate_Number/)
+- [按格式重排链表](./src/ReSort_List/)
+
 
 ## 字符串
 - [判断字符串是否是回文串](./src/Check_Palindrome/)
