@@ -4,7 +4,7 @@ algorithm study
 
 ## 数组
 - [向数组追加K个整数](./src/Append_K_Nums/)
-- [数字拆分求和](./src/Split_Chk_Sum/)
+- [数字拆分求和](./src/Split_Chk_Sum/)  
 - [买票需要的时间](./src/Buy_Ticket_Time/)
 - [无法吃早饭的学生](./src/Student_Breakfast/)
 - [区间和的个数](./src/Find_Area_Num/)
@@ -12,7 +12,7 @@ algorithm study
 - [连续的子数组和](./src/Serial_Array_Sum/)
 - [最小数](./src/Min_Numbers/)
 - [存在重复的数字3]()
-- [三数之和](./src/Three_Number_Sum/)
+- [三数之和](./src/Three_Number_Sum/README.md)
 - [拼接最大数](./src/Split_Max_Number/)
 
 
