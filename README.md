@@ -38,6 +38,8 @@ algorithm study
 - [二叉树的直径](./src/Binary_Tree/Diameter_binary_tree.md)
 - [二叉树的层序遍历](./src/Binary_Tree/Level-order_traversal.md)
 - [二叉树的右视图](./src/Binary_Tree/Right_view_tree.md)
+- [二叉搜索树](./src/Binary_Tree/Binary_search_tree.md)
+- [二叉搜索树中第 K 小的元素](./src/Binary_Tree/K_min_element_tree.md)
 
 ## 字符串
 - [判断字符串是否是回文串](./src/Check_Palindrome/)
