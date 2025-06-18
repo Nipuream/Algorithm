@@ -28,4 +28,23 @@ __case3__
 利用栈的特性来解决这个问题。
 - 若字符串是有效的括号，则长度肯定是偶数，不是偶数可直接返回 false.
 - 遍历字符串，如果是括号映射的左半部分则押入栈内，若不是则弹出栈顶元素比较是否满足映射。
-- 如果栈内元素为空返回 true， 不为空返回 false.s
+- 如果栈内元素为空返回 true， 不为空返回 false.
+
+```java
+  public boolean isValid(String s) {
+      Stack<Character> stack = new Stack<>();
+      for (char c : s.toCharArray()) {
+          if (c == '(' || c == '{' || c == '[') {
+              stack.push(c);
+          } else {
+              if (stack.isEmpty()) return false;
+              if (c == ')' && stack.peek() != '(') return false;
+              if (c == '}' && stack.peek() != '{') return false;
+              if (c == ']' && stack.peek() != '[') return false;
+              stack.pop();
+          }
+      }
+      if (!stack.isEmpty()) return false;
+      return true;
+  }
+```

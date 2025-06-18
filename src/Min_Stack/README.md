@@ -23,3 +23,44 @@ __case__
 ## 解题思路
 - 创建一个 `stack` 和一个 `priorityQueue` 来实现。
 - 不创建额外的数据结构，使用 `stack` 来保存和 `min` 之间的 `diff`，设计更为巧妙。
+
+- 过了很久，自己去写又有自己的一套解法和第二种类似：
+```java
+class MinStack {
+
+    private Stack<Integer> stack = new Stack<>();
+    private Stack<Integer> minStack = new Stack<>();
+
+    public MinStack() {
+    }
+    
+    public void push(int val) {
+        if (minStack.isEmpty()) {
+            minStack.push(val);
+            stack.push(0);
+        } else {
+            if (val > minStack.peek()) {
+                stack.push(val - minStack.peek());
+            } else {
+                minStack.push(val);
+                stack.push(0);
+            }
+        }
+    }
+    
+    public void pop() {
+        if (stack.isEmpty()) return;
+        int val = stack.pop();
+        if (val == 0)
+            minStack.pop();
+    }
+    
+    public int top() {
+        return stack.peek() + minStack.peek();
+    }
+    
+    public int getMin() {
+        return minStack.peek();
+    }
+}
+```
