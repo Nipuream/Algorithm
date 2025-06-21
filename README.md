@@ -12,17 +12,19 @@ algorithm study
 - [连续的子数组和](./src/Serial_Array_Sum/)
 - [最小数](./src/Min_Numbers/)
 - [存在重复的数字3]()
-- [三数之和](./src/Three_Number_Sum/README.md)
+- [三数之和](./src/Three_Number_Sum/README.md) ⭐️⭐️
 - [拼接最大数](./src/Split_Max_Number/)
-
+- [最长连续序列](./src/Common_Arrays/longest_serials_array.md) ⭐️⭐️
+- [移动零](./src/Common_Arrays/move_zero.md) ⭐️
+- [盛最多水的容器](./src/Common_Arrays/package_max_water_container.md) ⭐️⭐️
 
 ## 链表
-- [相交链表](./src/Common_List/Intersection_link_list.md)
-- [反转链表](./src/Common_List/reverse_list.md)
-- [环形链表](./src/Common_List/cycle_list.md)
-- [合并两个有序链表](./src/Merge_Two_List/)
+- [相交链表](./src/Common_List/Intersection_link_list.md) ⭐️
+- [反转链表](./src/Common_List/reverse_list.md) ⭐️
+- [环形链表](./src/Common_List/cycle_list.md) ⭐️
+- [合并两个有序链表](./src/Merge_Two_List/) ⭐️
 - [按格式合并两个链表](./src/Combine_Two_List/)
-- [合并K个升序链表](./src/Merge_K_List/)
+- [合并K个升序链表](./src/Merge_K_List/) ⭐️⭐️
 - [分段反转链表](./src/Revese_List/)
 - [删除有序链表中重复2次以上的元素](./src/Delete_Duplicate_Number/)
 - [按格式重排链表](./src/ReSort_List/)
@@ -31,15 +33,15 @@ algorithm study
 
 二叉树 dfs, yyds !
 
-- [二叉树的中序遍历](./src/Binary_Tree/In-order_traversal.md)
-- [二叉树的最大深度](./src/Binary_Tree/Max_depth.md)
-- [翻转二叉树](./src/Binary_Tree/Flip_binary_tree.md)
-- [对称二叉树](./src/Binary_Tree/Symmetric_binary.md)
-- [二叉树的直径](./src/Binary_Tree/Diameter_binary_tree.md)
-- [二叉树的层序遍历](./src/Binary_Tree/Level-order_traversal.md)
-- [二叉树的右视图](./src/Binary_Tree/Right_view_tree.md)
-- [二叉搜索树](./src/Binary_Tree/Binary_search_tree.md)
-- [二叉搜索树中第 K 小的元素](./src/Binary_Tree/K_min_element_tree.md)
+- [二叉树的中序遍历](./src/Binary_Tree/In-order_traversal.md) ⭐️
+- [二叉树的最大深度](./src/Binary_Tree/Max_depth.md) ⭐️
+- [翻转二叉树](./src/Binary_Tree/Flip_binary_tree.md) ⭐️
+- [对称二叉树](./src/Binary_Tree/Symmetric_binary.md) ⭐️
+- [二叉树的直径](./src/Binary_Tree/Diameter_binary_tree.md) ⭐️
+- [二叉树的层序遍历](./src/Binary_Tree/Level-order_traversal.md) ⭐️
+- [二叉树的右视图](./src/Binary_Tree/Right_view_tree.md) ⭐️⭐️
+- [二叉搜索树](./src/Binary_Tree/Binary_search_tree.md) ⭐️⭐️
+- [二叉搜索树中第 K 小的元素](./src/Binary_Tree/K_min_element_tree.md) ⭐️⭐️
 
 ## 字符串
 - [判断字符串是否是回文串](./src/Check_Palindrome/)
@@ -48,7 +50,7 @@ algorithm study
 - [根据字符出现概率排序](./src/Sort_By_Frequece/)
 - [压缩字符串](./src/Press_Letters/)
 - [无重复字符的最长子串](./src/Longest_No_Duplicate_Str/)
-
+- [字母异位词分组](./src/Common_String/diff_str_sort.md)
 
 ## 栈/队列/集合/堆
 - [使用栈来实现队列](./src/Stack_Queue/)
