@@ -17,6 +17,7 @@ algorithm study
 - [最长连续序列](./src/Common_Arrays/longest_serials_array.md) ⭐️⭐️
 - [移动零](./src/Common_Arrays/move_zero.md) ⭐️
 - [盛最多水的容器](./src/Common_Arrays/package_max_water_container.md) ⭐️⭐️
+- [接雨水](./src/Common_Arrays/trap_water.md) ⭐️⭐️⭐️
 
 ## 链表
 - [相交链表](./src/Common_List/Intersection_link_list.md) ⭐️
@@ -63,6 +64,8 @@ algorithm study
 - [删除无效的括号](./src/Delete_Invalid_Brackets/)
 - [最多能完成排序的块]()
 - [最长有效括号](./src/Longest_Valid_Backets/)
+- [每日温度](./src/Common_Struct/every_day_temp.md) ⭐️⭐️ `单调栈`
+- [柱状图中最大的矩形](./src/Common_Struct/max_area_in_historm.md) ⭐️⭐️⭐️ `单调栈`
 
 ## 贪心
 - [最小硬币数量](./src/Min_Coin_Number/)
