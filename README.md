@@ -54,9 +54,9 @@ algorithm study
 - [字母异位词分组](./src/Common_String/diff_str_sort.md)
 
 ## 栈/队列/集合/堆
-- [使用栈来实现队列](./src/Stack_Queue/)
-- [使用队列来实现栈](./src/Queue_Stack/)
-- [验证栈序列](./src/Verity_Stack/)
+- [使用栈来实现队列](./src/Stack_Queue/) ⭐️
+- [使用队列来实现栈](./src/Queue_Stack/) ⭐️
+- [验证栈序列](./src/Verity_Stack/) ⭐️
 - [最后一块石头的重量](./src/Last_Stone_Quality/)
 - [最小栈](./src/Min_Stack/)
 - [有效的括号](./src/Valid_Brackets/)
@@ -66,6 +66,12 @@ algorithm study
 - [最长有效括号](./src/Longest_Valid_Backets/)
 - [每日温度](./src/Common_Struct/every_day_temp.md) ⭐️⭐️ `单调栈`
 - [柱状图中最大的矩形](./src/Common_Struct/max_area_in_historm.md) ⭐️⭐️⭐️ `单调栈`
+
+---
+手撕堆排序?
+- [数组中的第K个最大元素](./src/Common_Arrays/find_k_largest_element.md) ⭐️⭐️ `堆排序`
+- [前K个高频元素](./src/Common_Arrays/top_k_frequent.md) ⭐️
+- [数据流的中位数](./src/Common_Arrays/median_finder.md) ⭐️⭐️ `堆排序`
 
 ## 贪心
 - [最小硬币数量](./src/Min_Coin_Number/)
