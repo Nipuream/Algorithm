@@ -13,3 +13,8 @@ __case2__
 
 ## 解题思路
 非常简单的贪心题目
+
+```java
+long num = number/5 + number%5/2 + number%5%2;
+return num;
+```

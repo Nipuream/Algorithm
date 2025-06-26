@@ -74,7 +74,11 @@ algorithm study
 - [数据流的中位数](./src/Common_Arrays/median_finder.md) ⭐️⭐️ `堆排序`
 
 ## 贪心
-- [最小硬币数量](./src/Min_Coin_Number/)
+- [最小硬币数量](./src/Min_Coin_Number/README.md) ⭐️
+- [买卖股票的最佳时机](./src/Buy_Sockets_Changes/) ⭐️
+- [跳跃游戏](./src/Greed/can_dump.md) ⭐️
+- [跳跃游戏II](./src/Greed/can_dump_II.md) ⭐️⭐️  `合并区间`
+- [划分字母区间](./src/Greed/partition_labels.md) ⭐️⭐️ `合并区间`
 
 ## 枚举
 - [买钢笔和铅笔的方案](./src/Buy_Pen_Pencil_Plan/)
@@ -104,7 +108,6 @@ algorithm study
 ## 动态规划
 - [字符串的编辑距离](./src/Str_EditLen/)
 - [爬阶梯问题](./src/Climb_Stairs_Problem/)
-- [买卖股票的最佳时机](./src/Buy_Sockets_Changes/)
 - [走格子问题]()
 - [字符串最长公共子序]()
 - [连续数列](./src/Continuout_Sequence/)
