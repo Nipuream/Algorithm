@@ -106,13 +106,22 @@ algorithm study
 
 
 ## 动态规划
+
+### 一维
+- [爬阶梯问题](./src/Climb_Stairs_Problem/) ⭐️
+- [杨辉三角](./src/dyamic_program/yanghui_angle.md) ⭐️
+- [打家劫舍](./src/dyamic_program/rob.md) ⭐️
+- [零钱兑换](./src/dyamic_program/coins_change.md) ⭐️⭐️
+- [完全平方和](./src/dyamic_program/num_squares.md) ⭐️⭐️
+- [单词拆分](./src/dyamic_program/work_break.md) ⭐️⭐️
+- [最长递增子序列](./src/dyamic_program/length_of_lis.md) ⭐️⭐️
 - [字符串的编辑距离](./src/Str_EditLen/)
-- [爬阶梯问题](./src/Climb_Stairs_Problem/)
 - [走格子问题]()
 - [字符串最长公共子序]()
 - [连续数列](./src/Continuout_Sequence/)
-- [最长递增子序列](./src/Length_Of_LIS/)
 - [不相交的线]()
+
+### 多维
 
 ## 其他
 - [或运算的最小翻转次数](./src/Min_Flips/)
