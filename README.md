@@ -18,6 +18,7 @@ algorithm study
 - [移动零](./src/Common_Arrays/move_zero.md) ⭐️
 - [盛最多水的容器](./src/Common_Arrays/package_max_water_container.md) ⭐️⭐️
 - [接雨水](./src/Common_Arrays/trap_water.md) ⭐️⭐️⭐️
+- [最大子数组和](./src/Common_Arrays/max_sub_array.md) ⭐️
 
 ## 链表
 - [相交链表](./src/Common_List/Intersection_link_list.md) ⭐️
@@ -62,8 +63,8 @@ algorithm study
 - [有效的括号](./src/Valid_Brackets/)
 - [求两个数组的交集](./src/Two_Arrays_Intersection/)
 - [删除无效的括号](./src/Delete_Invalid_Brackets/)
-- [最多能完成排序的块]()
-- [最长有效括号](./src/Longest_Valid_Backets/)
+- [最多能完成排序的块](./src/Common_Struct/max_chunks_to_sorted.md) ⭐️⭐️ `单调栈`
+- [最长有效括号](./src/Longest_Valid_Backets/) ⭐️⭐️⭐️ 
 - [每日温度](./src/Common_Struct/every_day_temp.md) ⭐️⭐️ `单调栈`
 - [柱状图中最大的矩形](./src/Common_Struct/max_area_in_historm.md) ⭐️⭐️⭐️ `单调栈`
 
@@ -115,6 +116,7 @@ algorithm study
 - [完全平方和](./src/dyamic_program/num_squares.md) ⭐️⭐️
 - [单词拆分](./src/dyamic_program/work_break.md) ⭐️⭐️
 - [最长递增子序列](./src/dyamic_program/length_of_lis.md) ⭐️⭐️
+- [乘积最大子数组](./src/dyamic_program/max_product.md) ⭐️⭐️
 - [字符串的编辑距离](./src/Str_EditLen/)
 - [走格子问题]()
 - [字符串最长公共子序]()
@@ -122,6 +124,7 @@ algorithm study
 - [不相交的线]()
 
 ### 多维
+- [分割等和子集](./src/dyamic_program/can_partition.md) ⭐️⭐️ `0-1背包问题`
 
 ## 其他
 - [或运算的最小翻转次数](./src/Min_Flips/)
