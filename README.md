@@ -117,16 +117,19 @@ algorithm study
 - [单词拆分](./src/dyamic_program/work_break.md) ⭐️⭐️
 - [最长递增子序列](./src/dyamic_program/length_of_lis.md) ⭐️⭐️
 - [乘积最大子数组](./src/dyamic_program/max_product.md) ⭐️⭐️
-- [字符串的编辑距离](./src/Str_EditLen/)
-- [走格子问题]()
-- [字符串最长公共子序]()
 - [连续数列](./src/Continuout_Sequence/)
-- [不相交的线]()
 
 ### 多维
 - [分割等和子集](./src/dyamic_program/can_partition.md) ⭐️⭐️ `0-1背包问题`
+- [不同路径](./src/dyamic_program/unique_paths.md) ⭐️⭐️
+- [最小路径和](./src/dyamic_program/min_path_sum.md) ⭐️⭐️
+- [最长回文子串](./src/dyamic_program/longest_palindrome.md) ⭐️⭐️
+- [最长公共子序](./src/dyamic_program/longest_common_subsequence.md) ⭐️⭐️
+- [不相交的线](./src/dyamic_program/longest_common_subsequence.md) ⭐️⭐️
+- [字符串的编辑距离](./src/Str_EditLen/) ⭐️⭐️⭐️
 
-## 其他
+
+## 其他s
 - [或运算的最小翻转次数](./src/Min_Flips/)
 - [根据数字的补数排序](./src/Replenish_Sort/)
 - [解码异或后的排列]()
