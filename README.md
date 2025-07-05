@@ -1,7 +1,6 @@
 # Algorithm
 algorithm study
 
-
 ## 数组
 - [向数组追加K个整数](./src/Append_K_Nums/)
 - [数字拆分求和](./src/Split_Chk_Sum/)  
@@ -128,8 +127,14 @@ algorithm study
 - [不相交的线](./src/dyamic_program/longest_common_subsequence.md) ⭐️⭐️
 - [字符串的编辑距离](./src/Str_EditLen/) ⭐️⭐️⭐️
 
+## 技巧
+- [只出现一次的数字](./src/common_skills/single_number.md) ⭐️ `异或`
+- [多数元素](./src/common_skills/majority_element.md) ⭐️
+- [颜色分类](./src/common_skills/sort_colors.md) ⭐️⭐️ `双指针`
+- [寻找重复数](./src/common_skills/find_duplicate.md) ⭐️⭐️⭐️ `快慢指针`
 
-## 其他s
+
+## 其他
 - [或运算的最小翻转次数](./src/Min_Flips/)
 - [根据数字的补数排序](./src/Replenish_Sort/)
 - [解码异或后的排列]()
