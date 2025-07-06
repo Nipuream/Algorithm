@@ -2,6 +2,9 @@
 algorithm study
 
 ## 数组
+- [两数之和](./src/Common_Arrays/two_sum.md) ⭐️ `前缀和`
+- [三数之和](./src/Three_Number_Sum/README.md) ⭐️⭐️ `双指针`
+- [和为K的子数组](./src/Common_Arrays/sub_array_sum.md) ⭐️⭐️ `前缀合`
 - [向数组追加K个整数](./src/Append_K_Nums/)
 - [数字拆分求和](./src/Split_Chk_Sum/)  
 - [买票需要的时间](./src/Buy_Ticket_Time/)
@@ -11,7 +14,6 @@ algorithm study
 - [连续的子数组和](./src/Serial_Array_Sum/)
 - [最小数](./src/Min_Numbers/)
 - [存在重复的数字3]()
-- [三数之和](./src/Three_Number_Sum/README.md) ⭐️⭐️ `双指针`
 - [拼接最大数](./src/Split_Max_Number/)
 - [最长连续序列](./src/Common_Arrays/longest_serials_array.md) ⭐️⭐️
 - [移动零](./src/Common_Arrays/move_zero.md) ⭐️
@@ -19,7 +21,6 @@ algorithm study
 - [接雨水](./src/Common_Arrays/trap_water.md) ⭐️⭐️⭐️
 - [最大子数组和](./src/Common_Arrays/max_sub_array.md) ⭐️
 - [找到字符串中所有字母异位词](./src/Common_Arrays/find_anagrams.md) ⭐️⭐️ `滑动窗口`
-- [和为K的子数组](./src/Common_Arrays/sub_array_sum.md) ⭐️⭐️ `前缀合`
 - [滑动窗口最大值](./src/Common_Arrays/max_sliding_window.md) ⭐️⭐️ `滑动窗口` `单调栈`
 
 ## 链表
@@ -42,10 +43,11 @@ algorithm study
 - [翻转二叉树](./src/Binary_Tree/Flip_binary_tree.md) ⭐️
 - [对称二叉树](./src/Binary_Tree/Symmetric_binary.md) ⭐️
 - [二叉树的直径](./src/Binary_Tree/Diameter_binary_tree.md) ⭐️
-- [二叉树的层序遍历](./src/Binary_Tree/Level-order_traversal.md) ⭐️
+- [二叉树的层序遍历](./src/Binary_Tree/Level-order_traversal.md) ⭐️ `bfs`
 - [二叉树的右视图](./src/Binary_Tree/Right_view_tree.md) ⭐️⭐️
 - [二叉搜索树](./src/Binary_Tree/Binary_search_tree.md) ⭐️⭐️
 - [二叉搜索树中第 K 小的元素](./src/Binary_Tree/K_min_element_tree.md) ⭐️⭐️
+- [二叉树展开为链表](./src/Binary_Tree/flatten.md) ⭐️⭐️⭐️
 
 ## 字符串
 - [判断字符串是否是回文串](./src/Check_Palindrome/)
