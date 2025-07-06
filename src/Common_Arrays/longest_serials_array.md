@@ -20,6 +20,8 @@
 
 LeetCode 128
 
+用 `set` 会方便很多。
+
 ```java
 public int longestConsecutive(int[] nums) {
 

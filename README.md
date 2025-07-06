@@ -11,13 +11,16 @@ algorithm study
 - [连续的子数组和](./src/Serial_Array_Sum/)
 - [最小数](./src/Min_Numbers/)
 - [存在重复的数字3]()
-- [三数之和](./src/Three_Number_Sum/README.md) ⭐️⭐️
+- [三数之和](./src/Three_Number_Sum/README.md) ⭐️⭐️ `双指针`
 - [拼接最大数](./src/Split_Max_Number/)
 - [最长连续序列](./src/Common_Arrays/longest_serials_array.md) ⭐️⭐️
 - [移动零](./src/Common_Arrays/move_zero.md) ⭐️
 - [盛最多水的容器](./src/Common_Arrays/package_max_water_container.md) ⭐️⭐️
 - [接雨水](./src/Common_Arrays/trap_water.md) ⭐️⭐️⭐️
 - [最大子数组和](./src/Common_Arrays/max_sub_array.md) ⭐️
+- [找到字符串中所有字母异位词](./src/Common_Arrays/find_anagrams.md) ⭐️⭐️ `滑动窗口`
+- [和为K的子数组](./src/Common_Arrays/sub_array_sum.md) ⭐️⭐️ `前缀合`
+- [滑动窗口最大值](./src/Common_Arrays/max_sliding_window.md) ⭐️⭐️ `滑动窗口` `单调栈`
 
 ## 链表
 - [相交链表](./src/Common_List/Intersection_link_list.md) ⭐️
@@ -50,7 +53,7 @@ algorithm study
 - [去除重复字母](./src/Remove_Duplicate_Letters/)
 - [根据字符出现概率排序](./src/Sort_By_Frequece/)
 - [压缩字符串](./src/Press_Letters/)
-- [无重复字符的最长子串](./src/Longest_No_Duplicate_Str/)
+- [无重复字符的最长子串](./src/Longest_No_Duplicate_Str/) ⭐️⭐️ `滑动窗口`
 - [字母异位词分组](./src/Common_String/diff_str_sort.md)
 
 ## 栈/队列/集合/堆
@@ -132,6 +135,7 @@ algorithm study
 - [多数元素](./src/common_skills/majority_element.md) ⭐️
 - [颜色分类](./src/common_skills/sort_colors.md) ⭐️⭐️ `双指针`
 - [寻找重复数](./src/common_skills/find_duplicate.md) ⭐️⭐️⭐️ `快慢指针`
+- [除自身以外数组的乘积](./src/common_skills/product_except_self.md) ⭐️⭐️
 
 
 ## 其他
